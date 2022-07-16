@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="Css.css">
+    
+</head>
+<body>
+    <div class="bg">
+        <Header class="head"></Header>
+            <div class="m">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Donor.html">Donor</a></li>
+                    <li><a href="needy.php">Needy</a></li>
+                    <li><a href="Contact.html">Contact Us</a></li>
+                    <li><a href="AboutUs.html"> About</a></li>
+                </ul>
+            </div>
+        <img src="head.jpg" alt="Saved in other Folder"  id="hed"srcset="">
+        <div class="News"><marquee class="marque" onmouseover="stop()" onmouseout="start()" direction="alternate" scrollamount="8">Donate Blood (Website is in under development)</marquee></div>
+        <div class="Slider"></div>
+        <section>
+            <div class="pic"><img src="bgd.png" alt=""></div>
+           <form action="Database.php" method="POST">
+               <table class="tb">
+                <tr><td colspan="2"><h3>Donor Form</h3></td></tr>
+                <tr><td>Name :</td><td><input type="text" name="nam" value=""> </td></tr>
+                <tr><td>Email :</td><td><input type="email" name="mail" id="b"> </td></tr>
+                <tr><td>Cnic no :</td><td><input type="text" name="id" id="b" placeholder="  Without -"> </td></tr>
+                <tr><td>Blood Group :</td><td><select name="group" id="b1">
+                    <option value="select">Select</option>
+
+                    <option value="A+">A+</option>
+                    <option value="A-">A-</option>
+                    <option value="B+">B+</option>
+                    <option value="B-">B-</option>
+                    <option value="O+">O+</option>
+                    <option value="O-">O-</option>
+                    <option value="AB+">AB+</option>
+                    <option value="AB-">AB-</option>
+                </select> </td></tr>
+                <tr><td>City :</td><td><input type="city" name="city" id="b"> </td></tr>
+                <tr><td>Phone No :</td><td><input type="tel" name="ph" id="b"> </td></tr>
+                <tr><td>Gender</td><td>Male : <input type="radio" name="gender"  value="male"id=""> Female : <input type="radio" name="Gender"  value="female"id=""> </td></tr>
+                <tr><td>Age</td><td><input type="number" name="age" id="b"> </td></tr>
+                <tr><td colspan="2" id="btnsub"><input type="submit" value="Submit" class="subbtn"></td></tr>
+
+               </table>
+           </form>
+            <article>
+                <marquee class="down"  onmouseover="stop()" onmouseout="start()" direction="up"><ul><u>Blood Groups</u><br>
+                    <li>A RhD positive (A+)</li>
+                    <li>A RhD negative (A-)</li>
+                    <li>B RhD positive (B+)</li>
+                    <li>B RhD negative (B-)</li>
+                    <li>O RhD positive (O+)</li>
+                    <li>O RhD negative (O-)</li>
+                    <li>AB RhD positive (AB+)</li>
+                    <li>AB RhD negative (AB-)</li>
+                    <hr width="200px" align="center">
+                    <b>Blood Donate Day <br>
+                        14<sup>th</sup>-June
+                    </b>
+                    
+                </ul>
+                <img src="apic.png"  alt="" style="width: 80%; margin-left: 10%;">
+                </marquee>
+            </article>
+            
+        </section>
+        <footer>
+            <p id="code"><b>2021 &copy BLOOD 4 UU All Right Reserved</b></p>
+        <div id="details" align="center">
+        <table class="tab"><tr ><td>  <a href="Donor.html">Donor</a></td><td><a href="needy.php">Needy</a></td></tr>
+         <tr><td><a href="Contact.html">Contact Us</a></td><td> <a href="AboutUs.html"> About</a></td></tr></table>
+          
+        </div>
+        <div id="social">Contact Us On <br>
+           <a href="https://www.facebook.com/" target="blank"><img src="facebook.png"  alt="">&nbsp;</a>&nbsp;
+           <a href="https://www.rssboard.org/"><img src="rss.png"  target="blank">&nbsp;</a>&nbsp;
+           <a href="https://twitter.com/?lang=en"><img src="twitter.png"  target="blank">&nbsp;</a>&nbsp;        </footer>
+    </div>
+</body>
+</html>

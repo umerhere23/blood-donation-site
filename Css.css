@@ -1,0 +1,243 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+header{
+    width: 1360px;
+    height: 100px;
+    background: rgb(0, 0, 0);
+    color: aliceblue;
+}
+.m{
+    position: relative;
+   color: aliceblue;
+    width: 650px;
+    height: 100px;
+    margin-top: -120px;
+    margin-left: 620px;
+
+}
+.m ul li{
+    font: 1em sans-serif;
+    float: left;
+    list-style: none;
+   line-height: 40px;
+   text-align:center;
+    font-size: large;
+    padding: 30px;
+}
+#hed{
+    position: absolute;
+    width: 400px;
+    height: 100px;
+    margin-top: -96px;
+    margin-left:50px ;
+}
+a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+a:hover{
+    color: rgb(252, 252, 252);
+    opacity: 0.5;
+}
+.News{
+    position: absolute;
+    width: 1360px;
+    height: 40px;
+    background-color: rgb(233, 30, 30);
+    
+}
+.Slider{
+    position: absolute;
+    margin-top:42px;
+width: 1360px;
+height: 400px;
+animation: slider 12s infinite;
+}
+@keyframes slider{
+    25%{background-image: url(" blood-donation2.gif") ;}
+    50%{background-image: url("banner4.jpg");}
+    75%{background-image: url("banner.jpg");}
+
+        100%{background-image: url("groups.jpg");}
+    
+}
+section{
+    margin-top:430px ;
+    position:absolute;
+height: 500px;
+width: 1360px;
+
+}
+.pic img{
+    position: absolute;
+    width:100%;
+}
+.marque{
+    font-weight: bold;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+    line-height: 40px;
+    cursor: pointer;
+    
+}
+article{
+    border-radius: 20px 20px;
+    right: 50px;
+    position: absolute;
+    margin-top: 30px;
+    background-color: black;
+    height: 690px;
+    width: 300px;
+}
+.down{
+    cursor: pointer;
+  
+  width: 300px; 
+  height: 690px;
+    color: white;
+}
+#para{
+    width:800px;
+    margin-left: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin-left: 5px;
+}
+#group{
+    font-family:  'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+footer{
+    position: absolute;
+    width: 1360px;
+    height: 100px;
+    background-color: black;
+    margin-top: 1250px;
+}
+#social{
+    cursor: pointer;
+    color: antiquewhite;
+    margin-top: 10px;
+    margin-left:1050px;
+}
+
+
+#code{
+    position: absolute;
+    color: aliceblue;
+    margin-left: 500px;
+    margin-top: 70px;
+    cursor: pointer;
+}
+.tab{
+    position: absolute;
+
+    height: 40px;
+    width: 300px;
+    font-size: large;
+    text-decoration: none;
+          margin-top: 10px;
+          margin-left: 50px;
+          padding: 10px;
+          line-height: 25px;
+      }
+
+.image{
+    position: absolute;
+    width: 225px;
+    height: 220px;
+    border: 2px solid black;
+    margin-left: 700px;
+    margin-top: 225px;
+}
+.a{ 
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    width: 410px;
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 70px;
+    font-size: large;
+    border: 2px solid black;
+    line-height: 22px; 
+    border-radius: 20px 20px;
+    background: rgb(138, 137, 137);
+    transition: 2s;
+
+}
+.Abouta{
+    line-height: 30px;
+    width: 400px;
+    position: absolute;
+    border: 2px solid black;
+    margin-left: 70px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    margin-top: 240px;
+    border-radius: 20px 20px;
+background-color: rgb(0, 0, 0);
+color: aliceblue;
+}
+#note{
+    color: rgb(219, 31, 31);
+    font-weight: bolder;
+}
+ol :hover{
+    background-color: rgb(34, 39, 17);
+    transition: 2s;
+    border-radius: 10px 10px;
+    
+
+}
+.a :hover{
+    background:rgb(21, 230, 143);
+    
+}
+form{
+    background-image: url("back.jpg");
+
+    position: absolute;
+    border: 2px black solid;
+    height: 90%;
+    width: 40%;
+    margin-left: 200px;
+    margin-top: 150px;
+    color: white;
+    font-size: large;
+  font-family: 'Times New Roman', Times, serif;
+  border-radius: 20px 20px;
+  text-align: center;
+  line-height: 20%;
+}
+.tb{
+
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-collapse: collapse;
+
+}
+.subbtn{
+    width: 30%;
+    height: 70%;
+    color: antiquewhite;
+    background-color: rgb(151, 15, 15);
+    border-radius: 10px 10px;
+    font-size: large;
+    border: red;
+}
+.subbtn:hover{
+    background-color:rgb(153, 77, 77) ;
+    width: 40%;
+    transition: 2s;
+}
+#b1{
+width: 40%;
+}
